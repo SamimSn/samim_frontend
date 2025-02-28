@@ -19,8 +19,8 @@ sudo npm install --frozen-lockfile
 echo "\n\n\n\n------------------------------------\nRunning: sudo npm run build\n------------------------------------\n\n\n\n"
 sudo npm run build
 
-echo "\n\n\n\n------------------------------------\nRunning: sudo pm2 start "npm -- start -p 43239" --name "samim_frontend"\n------------------------------------\n\n\n\n"
-sudo pm2 start "npm -- start -p 43239" --name "samim_frontend"
+echo "\n\n\n\n------------------------------------\nRunning: sudo pm2 start "npm start" --name "samim_frontend"\n------------------------------------\n\n\n\n"
+sudo pm2 start "npm start" --name "samim_frontend"
 
 echo "\n\n\n\n------------------------------------\nRunning: sudo pm2 save\n------------------------------------\n\n\n\n"
 sudo pm2 save
