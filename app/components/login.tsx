@@ -39,7 +39,7 @@ export function Login() {
         }}
       >
         <Typography variant="h4" gutterBottom>
-          Login1
+          Login
         </Typography>
         <Box component="form" onSubmit={handleSubmit} sx={{ mt: 3 }}>
           <Grid2 container spacing={2}>
